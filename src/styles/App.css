@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  background-color: #ffffff;
 }
 
 .App-logo {
@@ -15,6 +14,7 @@
 }
 
 .App-title1 {
+    color:white;
     text-align: center;
     line-height: 56px;
     letter-spacing: .06em;
@@ -33,6 +33,7 @@
     transform: rotate(360deg);
   }
 }
+
 
 
 .h1{
