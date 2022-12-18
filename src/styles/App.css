@@ -1,6 +1,37 @@
 .App {
   text-align: center;
+  background-image: url(../assets/line1.png);
+  background-position:center;
+  background-repeat: no-repeat;
 }
+
+.Head {
+  margin-top: 10px;
+  background-color: #fff0;
+  border-bottom: none;
+}
+
+.Faucet {
+  margin-top: 10px;
+
+}
+
+.FaucetBG {
+  background-image: url(../assets/line2.png);
+  margin-top:-16px;
+  background-position:center;
+  height: 500px;
+  background-repeat: no-repeat;
+}
+
+.WalletLabel{
+  color:white;
+}
+
+.LoginContainer{
+  height:60px;
+}
+
 
 .App-logo {
   height: 40vmin;
