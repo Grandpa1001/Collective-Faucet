@@ -1,7 +1,6 @@
 //@ts-check
 import * as React from 'react';
 import './styles/App.css';
-import { useState, useEffect } from 'react';
 import { Header, Container, Image, Button, Grid, Input, createStyles } from '@mantine/core';
 import logoDev from './assets/logoColl.webp';
 
@@ -45,7 +44,7 @@ function App() {
         <h1 className="App-title1">Faucet ETH GOERLI</h1>
         <div className='LoginContainer'>    
        <header className="WalletLabel">
-           {isConnected ? <p>Połączony: {address}</p> : <p>Podłącz swój portfel</p>}
+           {isConnected ? <p>Połączony: {address}</p> : ""}
        </header>
 
 
@@ -101,16 +100,3 @@ function App() {
 
 
 export default App;
-
-
-
-
-
-
-
-
-
-
-
-  
-
